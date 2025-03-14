@@ -93,4 +93,10 @@ if st.button("검색"):
     else:
         st.warning("운수사를 선택하고 운전자 이름을 입력해주세요.")
 
+st.markdown("""
+    <a href='https://driverdashboard-gk3pr4apprgwy2lb6segrrp.streamlit.app/' target='_blank' 
+    style='display: inline-block; padding: 10px 20px; background-color: green; color: white; font-weight: bold; 
+    text-align: center; text-decoration: none; border-radius: 5px;'>개별분석표 보러가기◀</a>
+""", unsafe_allow_html=True)
+
 
